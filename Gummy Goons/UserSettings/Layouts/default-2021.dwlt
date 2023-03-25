@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Console
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -118,7 +118,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 106
+  controlID: 98
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 107
+  controlID: 99
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 108
+  controlID: 90
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -206,7 +206,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -215,12 +215,12 @@ MonoBehaviour:
     y: 513
     width: 1152
     height: 426
-  m_MinSize: {x: 201, y: 221}
+  m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 14}
   - {fileID: 16}
+  - {fileID: 14}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &10
@@ -247,7 +247,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 25
+  controlID: 100
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -389,7 +389,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -679,9 +679,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -30.509483, y: -31.415829, z: 125.70639}
+    m_Target: {x: 1.2303853, y: 2.6552258, z: -0.8825793}
     speed: 2
-    m_Value: {x: -30.509483, y: -31.415829, z: 125.70639}
+    m_Value: {x: 1.2303853, y: 2.6552258, z: -0.8825793}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -715,7 +715,7 @@ MonoBehaviour:
         m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 1, y: 1}
+      m_Size: {x: 0.50001, y: 0.50001}
     zGrid:
       m_Fade:
         m_Target: 0
@@ -728,13 +728,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.14355281, y: -0.1522508, z: 0.022372613, w: 0.9775598}
+    m_Target: {x: 0.36311993, y: 0.09990187, z: -0.033335976, w: 0.92583734}
     speed: 2
-    m_Value: {x: -0.14355281, y: 0.1522508, z: -0.022372613, w: -0.9775598}
+    m_Value: {x: 0.36165842, y: 0.101335034, z: -0.03372654, w: 0.9261733}
   m_Size:
-    m_Target: 84.43552
+    m_Target: 0.8660254
     speed: 2
-    m_Value: 80.79954
+    m_Value: 0.8660254
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -820,9 +820,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 56760000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 56f5ffff12fbffff
+      m_ExpandedIDs: 241dffffdc1dffff4027ffffd02fffff6c52ffff545affffe663ffff206cffffec77ffff0cc1ffffc8ceffffd0e1ffffe8faffff50710000dac4000022250200e22c02001c33020024420200
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -895,14 +895,15 @@ MonoBehaviour:
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Github\Gummy_Goons\Gummy Goons
+  m_LastProjectPath: C:\Users\neodu\OneDrive\Documents\GummyGoons\Gummy_Goons\Gummy
+    Goons
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 0cb80000
     m_LastClickedID: 47116
-    m_ExpandedIDs: 00000000887400008a7400008c740000
+    m_ExpandedIDs: 00000000c2750000ee7a0000f07a0000f27a0000f47a0000f67a0000f87a0000fa7a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -927,24 +928,24 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 127}
+    scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000887400008a7400008c740000
+    m_ExpandedIDs: ffffffff00000000c2750000ee7a0000f07a0000f47a0000f67a0000f87a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Alexander_Level
-      m_OriginalName: Alexander_Level
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 30294
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 12}
     m_SearchString: 

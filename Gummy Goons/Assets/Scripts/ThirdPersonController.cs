@@ -4,6 +4,7 @@ using System.Collections;
 #if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
 using UnityEngine.InputSystem;
 #endif
+using UnityEngine.SceneManagement;
 
 /* Note: animations are called via the controller for both the character and capsule using animator null checks
  */
@@ -176,6 +177,11 @@ namespace StarterAssets
             Move();
             _playerInput.onActionTriggered += PlayerInput_onActionTriggered;
             //DestroyOnDeath();
+            //AlexStuff
+            if(timeRemaining <= 0)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            }
 
         }
         private void PlayerInput_onActionTriggered(InputAction.CallbackContext context) { Debug.Log(context); }
